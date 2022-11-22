@@ -7,6 +7,7 @@ function onInputChangeBordercolor(event) {
         inputElement.classList.remove('invalid')
         return inputElement.classList.add('valid')
     }
+    inputElement.classList.remove('valid')
     return inputElement.classList.add('invalid')
 };
 
